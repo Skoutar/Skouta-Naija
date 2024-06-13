@@ -1,0 +1,118 @@
+/* Discover section */
+.Discover {
+    width: 100%;
+    height: 957px;
+    position: relative;
+    background-image: url('images/Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px; /* Add padding to the bottom for spacing */
+}
+
+.Discover-header {
+    color: white;
+    width: 702px;
+    height: 192px;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    z-index: 10;
+}
+
+.Discover-text {
+    width: 750px;
+    height: 108px;
+    text-align: center;
+    position: absolute;
+    top: 487px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.Discover-search {
+    width: 1153px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 739px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Discover-search .search-input {
+    width: 222px;
+    height: 65px;
+    padding: 18px 40px 19px 20px;
+    border-radius: 4px;
+    border: 1px solid #6200EE;
+}
+
+.Discover-search button {
+    width: 127px;
+    height: 64px;
+    padding: 20px;
+    gap: 12px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #6200EE;
+    border: none;
+}
+
+/* Marquee section */
+.marque-section {
+    width: 100%;
+    padding: 40px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px; /* Add margin to the top for spacing */
+}
+
+.margue-shot {
+    font-size: 32px;
+    font-weight: 500;
+    color: #6B6B6B;
+    margin-bottom: 20px;
+}
+
+.scroll-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.Brand-logo {
+    width: 159px;
+    height: auto;
+    margin: 30px; /* Adjust margin as needed */
+}
+
+/* Find space section */
+.find-space {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 40px;
+}

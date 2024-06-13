@@ -1,0 +1,92 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    width: 100%;
+    height: 94px;
+    gap: 0px;
+    border: 1px solid #131313;
+    opacity: 0px;
+
+}
+
+.Nav-logo {
+    width: 143px;
+    height: 28px;
+    margin-left: 5%;
+    color: #6200EE;
+}
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.nav-link {
+    margin-top: 25px;
+}
+
+.nav-link a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #131313;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.Nav-button1 {
+    width: 100px;
+    height: 48px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border-color: #6200EE;
+    cursor: pointer;
+}
+.Nav-button1:hover{
+    background-color: #6200EE;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.button-text1 {
+    color: #6200EE;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.button-text1:hover{
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+.Nav-button2 {
+    width: 100px;
+    height: 48px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #6200EE;
+    border: none;
+    cursor: pointer;
+}
+.Nav-button2:hover{
+    background-color: #fff;
+    border:1px solid #6200EE;
+    transition: 0.2s ease-in;
+}
+
+.button-text2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.button-text2:hover{
+    color: #6200EE;
+    transition: 0.2s ease-in;
+}
