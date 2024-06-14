@@ -11,7 +11,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px; /* Add padding to the bottom for spacing */
+    padding-bottom: 40px;
+    /* Add padding to the bottom for spacing */
 }
 
 .Discover-header {
@@ -54,7 +55,6 @@
 
 .input-box {
     display: flex;
-    justify-content: space-between;
     width: 100%;
 }
 
@@ -85,7 +85,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px; /* Add margin to the top for spacing */
+    margin-top: 120px;
+    /* Add margin to the top for spacing */
 }
 
 .margue-shot {
@@ -105,7 +106,8 @@
 .Brand-logo {
     width: 159px;
     height: auto;
-    margin: 30px; /* Adjust margin as needed */
+    margin: 30px;
+    /* Adjust margin as needed */
 }
 
 /* Find space section */
@@ -115,4 +117,337 @@
     text-align: center;
     background-color: #fff;
     margin-top: 40px;
+}
+
+/* created section starts */
+
+.created {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.created-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.created-header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #181818;
+}
+
+.created-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4E4E4E;
+    margin: 0 auto;
+    width: auto;
+}
+
+.Created-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Created-offer {
+    max-width: 586px;
+    margin: 70px;
+    text-align: left;
+}
+
+.offer-h {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #181818;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.offer-h:hover {
+    color: #6200EE;
+}
+
+.offer-p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4E4E4E;
+}
+
+.created-img {
+    width: 100%;
+    max-width: 628px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .created-header {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .created-p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .Created-b {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Created-offer {
+        margin: 20px;
+        max-width: 100%;
+    }
+
+    .offer-h {
+        font-size: 24px;
+    }
+
+    .offer-p {
+        font-size: 16px;
+    }
+
+    .created-img {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .created-header {
+        font-size: 28px;
+    }
+
+    .created-p {
+        font-size: 16px;
+    }
+
+    .offer-h {
+        font-size: 20px;
+    }
+
+    .offer-p {
+        font-size: 14px;
+    }
+
+    .Created-offer {
+        margin: 10px;
+    }
+}
+
+/* how section starts */
+.how-section {
+    width: 100%;
+    height: 1336px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.how-section1-h {
+    width: auto;
+    height: auto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: center;
+    color: #0E0E0E;
+}
+
+.how-section1-p {
+    width: 870px;
+    height: 160px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.how-section2 {
+    display: flex;
+    position: relative;
+    width: 1280px;
+    height: 944px;
+    margin-top: 50px;
+
+}
+
+.section2-text {
+    width: 672px;
+    height: 782px;
+    border-radius: 8px;
+    top: 81px;
+    position: absolute;
+    background-color: #F8F8F8;
+    box-shadow: 0px 2px 2px 2px #22222214;
+
+}
+
+.how-text {
+    display: flex;
+    width: 594px;
+    height: 174px;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+
+.how-text2 {
+    width: 490px;
+    height: 174px;
+    margin-left: 20px;
+}
+
+.how-text img {
+    width: 64px;
+    height: 64px;
+    color: #6B6B6B;
+    margin-top: 50px;
+
+}
+
+.section2-h {
+    width: 490px;
+    height: 42px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    color: #6200EE;
+}
+
+.section2-p {
+    width: 490px;
+    height: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.how-hr {
+    width: 594px;
+    margin-left: 39px;
+    border: 1px solid #BABABA;
+}
+
+.section2-img {
+    width: 845px;
+    height: 944px;
+    margin-left: 435px;
+    border-radius: 8px;
+
+}
+
+/* responsiveness for  how section*/
+@media (max-width: 768px) {
+    .how-section {
+        margin-top: 10px;
+    }
+    .how-section1-h {
+        width: auto;
+        height: auto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .how-section1-p {
+        width: auto;
+        height: auto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .how-section2 {
+        width: 428px;
+        height: auto;
+        border-radius: 8px;
+        display: flex;
+        position: relative;
+    }
+
+    .section2-text {
+        width: 260px;
+        position: absolute;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .how-text {
+        width: 214px;
+        height: 320px;
+        top: 20px;
+        margin-top: 5px;
+    }
+
+    .how-text2 {
+        width: 170px;
+        height: 260px;
+        position: absolute;
+        margin-left: 40px;
+        padding: 10px;
+
+    }
+
+    .how-text img {
+        width: 28px;
+        height: 28px;
+        margin-top: 150px;
+    }
+
+    .section2-h {
+        width: 170px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+
+    }
+
+    .section2-p {
+        width: 170px;
+        height: 192px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .how-hr {
+        width: 240px;
+        left: 10px;
+        border: 1px solid;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+
+    .section2-img {
+        width: 219px;
+        height: 940px;
+        left: 209px;
+        gap: 0px;
+        border-radius: 8px;
+        margin-left: 200px;
+    }
 }
