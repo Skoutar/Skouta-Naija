@@ -670,14 +670,14 @@ height: 342px;
 display: flex;
 }
 .comments-container{
-    width: 386px;
+    width: 450px;
 height: 228px;
 padding: 20px 12px 20px 12px;
 margin: 20px;
 background-color: #B78AF7;
 }
 .comments-containerb{
-    width: 386px;
+    width: 450px;
 height: 342px;
 top: 482px;
 left: 527px;
@@ -716,7 +716,7 @@ line-height: 30px;
 text-align: left; 
 }
 .container{
-    width: 293px;
+    width: auto;
 height: 78px;
 margin: 16px;
 display: flex;
@@ -736,12 +736,12 @@ height: Hug (78px)px;
 margin: 12px;
 }
 .container-text{
-    width: 171px;
+    width: 400px;
 height: 78px;
 margin: 12px;
 }
 .container-text h4{
-    width: 171px;
+    width: 200px;
 height: 36px;
 font-size: 24px;
 font-weight: 500;
