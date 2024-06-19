@@ -1,11 +1,13 @@
 import CarouselComponent from '../Carousel/CarouselComponent'
 import Footer from '../Footer/Footer'
+import Navbar from '../navbar/Navbar'
 import './Landpage.css'
 import Marquee from 'react-fast-marquee'
 
 const Landpage = () => {
   return (
     <div className="landing-page">
+      <Navbar/>
       {/* Discover section */}
       <div className="Discover">
         <h1 className="Discover-header">
@@ -226,6 +228,23 @@ const Landpage = () => {
             <button>Shoot a direct mail</button>
           </div>
         </div>
+      </div>
+      {/* Stay Update */}
+      <div className='stay-updated'> 
+        <div className='updated'>
+          <div className='updated-A'>
+            <h4>Stay Updated with Skouta’s Newsletter</h4>
+            <p>Find Your Perfect Film Location. Discover unique and stunning film locations for your next project</p>
+          </div>
+          <div className='updated-B'> 
+            <p>Subscribe to our newsletter for the latest updates, special offers, and to join us on our journey.</p>
+            <div className='form-input'>
+              <input type="text" placeholder='Your Email Address'/>
+              <button>Subcribe</button>
+            </div>
+            <p>By subscribing, you agree to our Terms and Conditions.</p>
+          </div>
+        </div>       
       </div>
       <Footer/>
     </div>
