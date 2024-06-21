@@ -12,13 +12,11 @@ const Navbar = () => {
                 </div>
                 <Link to='/login'>
                     <button className='Nav-button1' to> Log in</button>
-                    <button className='Nav-button2'>
-                        <span className='button-text2'> Sign up </span>
-                    </button>
+                </Link>
+                <Link to='/signup'>
+                    <button className='Nav-button2'> Sign up </button>
 
                 </Link>
-
-
             </div>
 
         </div>
