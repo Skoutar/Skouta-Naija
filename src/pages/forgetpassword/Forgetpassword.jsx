@@ -1,18 +1,33 @@
-import { Link } from "react-router-dom"
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 const Forgetpassword = () => {
-    return (
-        <div className="bg-white w-full h-full mt-[20px] mb-[50px]">
-            <Link to='/' className="w-[24px] h-[24px] mt-[50px] ml-[95%]"><i className="bi bi-x-lg"></i></Link>
-            <div className="h-auto relative flex flex-col items-center justify-center w-[80%] ml-[10%] mt-[100px]">
-                <h1 className="w-auto h-[42px] text-[28px] font-bold leading-[42px] text-center">Forget password?</h1>
-                <p className="w-[438px] h-[30px] text-[20px] font-normal leading-[30px] text-center mt-[10px]">Enter the email address associated with your account, and we’ll email you a link  with instructions to reset your password.</p>
-                <input type="email" className=' mt-[100px] top-[594px] left-[45px] w-[510px] h-[48px] px-[20px] py-[12px] border border-gray-400 rounded-[8px]' placeholder='Enter Email' />
-                <Link to='/checkemail'>
-                    <button className=' text-white font-medium mt-[40px] top-[594px] left-[45px] w-[510px] h-[48px] px-[20px] py-[12px] bg-mainColor rounded-[8px]' >Reset password</button>
-                </Link>
-            </div>
+  const [email, setEmail] = useState("");
+
+  return (
+    <div className="bg-white w-full h-full mt-20 mb-50">
+      <Link to="/" className="block w-6 h-6 mt-12 ml-auto"><i className="bi bi-x-lg"></i></Link>
+      <div className="flex flex-col items-center justify-center w-full sm:w-3/4 lg:w-1/2 mx-auto mt-24">
+        <h1 className="text-2xl sm:text-3xl font-bold text-center">Forget password?</h1>
+        <p className="w-full sm:w-3/4 lg:w-2/3 text-base sm:text-lg text-center mt-2">
+          Enter the email address associated with your account, and we’ll email you a link with instructions to reset your password.
+        </p>
+        <div className="relative w-full mt-10">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full h-12 pl-10 pr-4 border border-gray-400 rounded-lg"
+            placeholder="Enter Email"
+          />
+          <i className="bi bi-envelope-fill absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
         </div>
-    )
+        <Link to='/checkemail'>
+          <button className="mt-10 w-full h-12 px-4 bg-mainColor text-white font-medium rounded-lg">Reset password</button>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
-export default Forgetpassword
+export default Forgetpassword;
