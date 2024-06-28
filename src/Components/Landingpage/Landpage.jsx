@@ -8,7 +8,7 @@ const Landpage = () => {
     <div className="landing-page">
       <Navbar/>
       {/* Discover section */}
-      <div className="Discover w-full h-[957px] relative bg-[url('images/Banner.png')] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
+      <div className="Discover w-full h-[957px] relative bg-banner bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
         <h1 className="text-white w-[702px] h-[192px] text-6xl font-bold text-center absolute top-[150px] leading-[96px]">
           Discover Unique Film Locations for Your Movie Production
         </h1>
