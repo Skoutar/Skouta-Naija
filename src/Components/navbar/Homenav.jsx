@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { useState } from "react";
-import Navlogo from '/images/Navlogo.png';  // Adjust path based on your directory structure
+import Navlogo from '/images/BrandLogo.png';  // Adjust path based on your directory structure
 
 
 const Homenav = () => {
