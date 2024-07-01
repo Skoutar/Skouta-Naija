@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'banner': "url('/images/Banner.png')",
+        'Brand': "url('/images/Navlogo.png')",
       },
       colors: {
         mainColor: '#6200EE',

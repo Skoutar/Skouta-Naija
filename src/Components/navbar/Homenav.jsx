@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 import { useState } from "react";
+import Navlogo from '/images/Navlogo.png';  // Adjust path based on your directory structure
+
 
 const Homenav = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -9,7 +11,7 @@ const Homenav = () => {
   };
   return (
     <div className="flex items-center justify-around p-4 bg-white w-full h-[94px] gap-0 border border-[#131313]">
-      <img src="images/Navlogo.png" alt="" className='' />
+      <img src={Navlogo} alt="Logo" className='Brand' />
       <div className="h-[50px] w-[272px] border rounded flex items-center justify-center">
         <input type="text" placeholder="search here..." className="h-[40px]"/>
         <i className="bi bi-search w-[35px] h-[35px] bg-mainColor cursor-pointer text-white text-center ml-[5px] rounded pt-[5px] "></i>
