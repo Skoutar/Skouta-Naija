@@ -9,6 +9,7 @@ import Reset from './pages/forgetpassword/Reset';
 import Comfirm from './pages/forgetpassword/Comfirm';
 import Land from './Components/Landingpage/Land';
 import Home from './pages/Home';
+import Profile from './pages/Profile';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/reset' element={<Reset/>}/>
           <Route path='/comfirm' element={<Comfirm/>}/>
           <Route path='/' element={<Home/>}/>
+          <Route path='/Profile' element={<Profile/>}/>
         </Routes>
       </BrowserRouter>
     </div>
