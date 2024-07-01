@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='Navbar'>
-            <img src="images/BrandLogo.png" alt="" className='Brand-logo' />
+        <div className='flex items-center justify-between p-4 bg-white w-full h-[94px] border border-[#131313]'>
+            <img src="images/Navlogo.png" alt="" className='Brand-logo' />
             <div className='nav-sec'>
                 <div className='nav-link'>
                     <a href="#">Browse Space</a>

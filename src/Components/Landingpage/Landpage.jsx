@@ -1,12 +1,9 @@
 import CarouselComponent from '../Carousel/CarouselComponent'
-import Footer from '../Footer/Footer'
-import Navbar from '../navbar/Navbar'
 import Marquee from 'react-fast-marquee'
 
 const Landpage = () => {
   return (
     <div className="landing-page">
-      <Navbar/>
       {/* Discover section */}
       <div className="Discover w-full h-[957px] relative bg-banner bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center">
         <h1 className="text-white w-[702px] h-[192px] text-6xl font-bold text-center absolute top-[150px] leading-[96px]">
@@ -182,68 +179,67 @@ const Landpage = () => {
         </div>
       </div>
       {/* Question */}
-      <div className='question-part'>
-        <div className='question-partA'>
-          <h1>Frequently Asked Questions (FAQs)</h1>
-          <p>Any questions? We got you.</p>
+      <div className='w-full h-[1044px] mt-[180px] bg-[#F8F8F8] flex flex-col items-center'>
+        <div className='w-[838px] h-[262px] mt-[64px]'>
+          <h1 className='w-[838px] h-[192px] text-[60px] font-bold leading-[90px] tracking-[0.02em] text-center'>Frequently Asked Questions (FAQs)</h1>
+          <p className='w-full h-[42px] text-[25px] font-normal leading-[42px] text-center text-[#4E4E4E] mt-[10px]'>Any questions? We got you.</p>
         </div>
-        <div className='question-partB'>
-          <div className='question-section'>
-            <select name="" id="" className='questions'>
-              <option value="" className='questions-header'>
+        <div className='w-4/5 flex items-center'>
+          <div className=''>
+            <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
+              <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
                 How do i list my space on Skouta?
               </option>
               {/* <option value="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
             </select>
-            <select name="" id="" className='questions'>
-              <option value="" className='questions-header'>How do i list my space on Skouta?</option>
+            <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
+              <option value="" className='w-[40px] h-[72px] mt-[78px] text-[20px] font-normal leading-[36px] text-left'>How do i list my space on Skouta?</option>
               {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
             </select>
-            <select name="" id="" className='questions'>
-              <option value="" className='questions-header'>
+            <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
+              <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
                 How do i list my space on Skouta?
               </option>
               {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
             </select>
-            <select name="" id="" className='questions'>
-              <option value="" className='questions-header'>
+            <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
+              <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
                 How do i list my space on Skouta?
               </option>
               {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
             </select>
-            <select name="" id="" className='questions'>
-              <option value="" className='questions-header'>
+            <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
+              <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
                 How do i list my space on Skouta?
               </option>
               {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
             </select>
           </div>
-          <div className='more-question'>
-            <img src="images/message.png" alt="" />
-            <h4>Do you have more questions?</h4> 
+          <div className='w-[1000px] h-[500px] top-[386px] left-[949px] bg-white p-[21px] flex flex-col items-center justify-around'>
+            <img src="images/message.png" alt="" className='w-[100px] h-[100px]'/>
+            <h4 className='w-[350px] text-[28px] font-bold leading-[px] text-center'>Do you have more questions?</h4> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in </p>
-            <button>Shoot a direct mail</button>
+            <button className='w-[228px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Shoot a direct mail</button>
           </div>
         </div>
       </div>
       {/* Stay Update */}
-      <div className='stay-updated'> 
-        <div className='updated'>
-          <div className='updated-A'>
-            <h4>Stay Updated with Skouta’s Newsletter</h4>
-            <p>Find Your Perfect Film Location. Discover unique and stunning film locations for your next project</p>
+      <div className='bg-white w-full h-[500px] flex items-center justify-center'> 
+        <div className='flex items-center'>
+          <div className='updated-A w-[586px] h-auto mr-[40px]'>
+            <h4 className='w-[586px] text-[40px] font-bold leading-[60px] text-left'>Stay Updated with Skouta’s Newsletter</h4>
+            <p className='w-[586px] text-[20px] font-normal leading-[36px] text-left'>Find Your Perfect Film Location. Discover unique and stunning film locations for your next project</p>
           </div>
-          <div className='updated-B'> 
-            <p>Subscribe to our newsletter for the latest updates, special offers, and to join us on our journey.</p>
-            <div className='form-input'>
-              <input type="text" placeholder='Your Email Address'/>
-              <button>Subcribe</button>
+          <div className='w-[639px] ml-[40px]'> 
+            <p className='w-[628px] text-[20px] font-normal leading-[36px] text-left'>Subscribe to our newsletter for the latest updates, special offers, and to join us on our journey.</p>
+            <div className='form-input w-[639px] h-[64px] relative mt-[20px] rounded-[8px]'>
+              <input type="text" placeholder='Your Email Address' className='w-[411px] h-auto p-[22px_256px_18px_16px] rounded-[8px] bg-[#E2E2E2]'/>
+              <button className='w-[228px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Subcribe</button>
+              <p className='w-[628px] text-[20px] font-normal leading-[36px] text-left mt-[10px]'>By subscribing, you agree to our Terms and Conditions.</p>
             </div>
-            <p>By subscribing, you agree to our Terms and Conditions.</p>
           </div>
         </div>       
       </div>
-      <Footer/>
     </div>
   )
 }
