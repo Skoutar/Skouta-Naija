@@ -11,7 +11,7 @@ const Homenav = () => {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <img src={Navlogo} alt="Logo" className='Brand w-[100px] h-[24px] sm:w-[146px] sm:h-[34px]' />
+          <Link to="/"><img src={Navlogo} alt="Logo" className='Brand w-[100px] h-[24px] sm:w-[146px] sm:h-[34px]' /></Link>
 
 
           {/* Search Input (Hidden on Small Screens) */}

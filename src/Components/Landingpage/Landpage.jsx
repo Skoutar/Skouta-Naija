@@ -9,17 +9,17 @@ const Landpage = () => {
         <h1 className="text-white text-[28px] w-[350px] sm:w-[702px] h-[192px] sm:text-6xl font-bold text-center absolute top-[77px] sm:top-[150px] sm:leading-[96px] animate-fadeInUp">
           Discover Unique Film Locations for Your Movie Production
         </h1>
-        <p className="sm:w-[750px] sm:h-[108px] text-center absolute sm:top-[487px] top-[230px] mt-[px] text-[15px] w-[330px] text-white sm:text-xl font-normal leading-9 animate-fadeInUpDelay">
+        <p className="sm:w-[750px] sm:h-[108px] text-center absolute sm:top-[487px] top-[220px] mt-[px] text-[15px] w-[330px] text-white sm:text-xl font-normal leading-7 sm:leading-9 animate-fadeInUpDelay">
           Find the perfect backdrop for your film or TV project with our extensive collection of unique and diverse locations. From historic buildings to breathtaking landscapes, we have it all.
         </p>
-        <div className='w-full h-[400px] sm:w-[1153px] sm:h-[120px] sm:flex justify-between items-center rounded-lg absolute top-[470px] sm:top-[739px] text-center animate-fadeInUpDelay p-4 bg-white'>
+        <div className='w-full h-[400px] sm:w-[1153px] sm:h-[120px] sm:flex justify-between items-center rounded-lg absolute top-[440px] sm:top-[739px] text-center animate-fadeInUpDelay p-4 bg-white'>
           <div className='x1:flex w-full flex-col items-center sm:justify-center'>
             <input type="text" className='w-[300px] p-[5px] m-[10px] h-[50px] sm:w-56 sm:h-16 sm:py-4 sm:px-10 rounded-md border border-purple-600 sm:ml-2' placeholder='Enter Location' />
             <input type="text" className='w-[300px] p-[5px] m-[10px] h-[50px] sm:w-56 sm:h-16 sm:py-4 sm:px-10 rounded-md border border-purple-600 sm:ml-2' placeholder='What are you planning?' />
             <input type="text" className='w-[300px] p-[5px] m-[10px] h-[50px] sm:w-56 sm:h-16 sm:py-4 sm:px-10 rounded-md border border-purple-600 sm:ml-2' placeholder='Enter Start Date' />
             <input type="text" className='w-[300px] p-[5px] m-[10px] h-[50px] sm:w-56 sm:h-16 sm:py-4 sm:px-10 rounded-md border border-purple-600 sm:ml-2' placeholder='Enter End Date' />
           </div>
-          <button className='w-32 mt-[20px] h-16 p-5 gap-3 rounded-lg text-white bg-purple-600 border-0'>
+          <button className='sm:w-32 mt-[20px] sm:h-16 p-3 sm:p-5 gap-3 rounded-lg text-white bg-purple-600 border-0'>
             <i className="bi bi-search"></i> Search
           </button>
         </div>
