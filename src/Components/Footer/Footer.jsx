@@ -38,6 +38,12 @@ const Footer = () => {
             </div>
             <div className='footer-text'>
                 <h4>Activities</h4>
+                <p>Production</p>
+                <p>Filming</p>
+                <p>Music Videos</p>
+                <p>Photo Shoot</p>
+                <p>Meeting</p>
+                <p>View All</p>
             </div>
         </div>
         <div className='foot'>

@@ -31,7 +31,7 @@ const Homenav = () => {
             <Link><i className={`bi bi-globe text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-bell text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-[50px] hover:text-white cursor-pointer`}><i className="bi bi-chevron-down"></i></i></Link>
-            <div className="md:hidden ml-6">
+            <div className="md:hidden ml-6 mt-[5px]">
               {/* Mobile Menu */}
               <button onClick={() => setIsOpen(!isOpen)} className="text-gray-600 focus:outline-none">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

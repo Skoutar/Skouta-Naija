@@ -117,62 +117,62 @@ const Landpage = () => {
         </div>
       </div>
       {/* list your space */}
-      <div className='w-full h-auto py-15 bg-white mt-10 rounded-[8px] flex items-center justify-center'>
-        <div className='w-[600px] h-[728px] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] m-[50px]'>
-          <img src="images/list-space.png" alt="" className='w-[600px] h-[382px]' />
-          <p className='w-[560px] h-auto mt-5 ml-5 text-lg font-normal text-left text-[#222222]'>Sign up and earn money when you list your space on Skouta. The most recognised brands are filming now, be a part of their production! </p>
-          <button className='w-[228px] h-[64px] px-2 py-5 rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 mt-10 transition duration-600 hover:bg-[#290064]"'> <span>List Your Space</span></button>
+      <div className='w-full h-auto py-15 bg-white md:mt-10 mt-[80px] rounded-[8px] md:flex items-center justify-center'>
+        <div className='md:w-[600px] md:h-[728px] flex flex-col items-center h-[468px] w-[90%] ml-[5%] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] md:m-[50px]'>
+          <img src="images/list-space.png" alt="" className='md:w-[600px] w-[396px] h-[250px] md:h-[382px]' />
+          <p className='md:w-[560px] w-[320px] h-auto m-[20px] text-[16px] md:ml-5 text-lg font-normal text-left text-[#222222]'>Sign up and earn money when you list your space on Skouta. The most recognised brands are filming now, be a part of their production! </p>
+          <button className='md:w-[228px] w-[50%] h-[48px] md:h-[64px] md:p-[10px] p-[5px] rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 md:mt-10 transition duration-600 hover:bg-[#290064]'> <span>List Your Space</span></button>
         </div>
-        <div className='w-[600px] h-[728px] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] m-[50px]'>
-          <img src="images/list-space2.png" alt="" className='w-[600px] h-[382px]' />
-          <p className='w-[560px] h-auto mt-5 ml-5 text-lg font-normal text-left text-[#222222]'>We connect you with the best locations well suited to your project and your selected preference. Tell us what you’re looking for, we’re here to help!</p>
-          <button className='w-[228px] h-[64px] px-2 py-5 rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 mt-10 transition duration-600 hover:bg-[#290064]"'><span>Get Started</span></button>
+        <div className='md:w-[600px] md:h-[728px] flex flex-col mt-10 items-center h-[468px] w-[90%] ml-[5%] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] md:m-[50px]'>
+          <img src="images/list-space2.png" alt="" className='md:w-[600px] w-[396px] h-[250px] md:h-[382px]' />
+          <p className='md:w-[560px] w-[320px] h-auto mt-5 m-[20px] text-[16px] md:ml-5 text-lg font-normal text-left text-[#222222]'>We connect you with the best locations well suited to your project and your selected preference. Tell us what you’re looking for, we’re here to help!</p>
+          <button className='md:w-[228px] w-[50%] h-[48px] md:h-[64px] md:p-[10px] p-[5px] rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 md:mt-10 transition duration-600 hover:bg-[#290064]'><span>Get Started</span></button>
         </div>
       </div>
       {/* Covered section */}
-      <div className='w-full h-[370px] px-6 sm:px-24 md:px-40 lg:px-56 pt-6 mt-[40px] bg-gray-200'>
-        <div className='w-full mt-10 sm:mt-16 flex items-center justify-center'>
-          <img src="images/Green.png" alt="" />
-          <div className='pl-[8px] ml-[80px]'>
-            <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gray-900'>We have you covered </h1>
-            <p className='w-[800px] mt-4 h-84 text-lg font-normal leading-7 text-gray-700'>Select from our protection packages with damage protection, liability insurance, and even cancellation protection.</p>
+      <div className='w-full md:h-[370px] h-[217px] px-6 sm:px-24 md:px-40 lg:px-56 pt-6 md:mt-[40px] mt-[80px] bg-gray-200'>
+        <div className='w-[90%] h-[80%] md:mt-10 sm:mt-16 flex items-center justify-around'>
+          <img src="images/Green.png" className='md:h-[200px] md:w-[200px] w-[48px] h-[48px] ' alt="" />
+          <div className='pl-[8px] md:ml-[80px] '>
+            <h1 className='text-4xl sm:text-5xl md:text-6xl text-[28px] font-bold leading-tight text-gray-900'>We have you covered </h1>
+            <p className='md:w-[800px] w-[314px] md:mt-4 h-84 text-lg font-normal leading-7 text-gray-700'>Select from our protection packages with damage protection, liability insurance, and even cancellation protection.</p>
           </div>
         </div>
       </div>
       {/* costumer reviws */}
-      <div className='w-full h-[892px] mt-[180px] bg-purple-100 flex flex-col items-center justify-center'>
-        <div className="w-[838px] h-[296px] relative">
-          <h1 className='w-[800px] h-[auto] text-5xl font-bold leading-10 tracking-wide text-center text-gray-800'>What our customers have to say about us</h1>
-          <p className='w-[700px] mt-4 text-center font-normal leading-10 text-gray-700'>Customer testimonials and reviews that validate the best quality locations providing social proof to potential clients.</p>
+      <div className='w-full md:h-[892px] h-[836px] md:mt-[180px] mt-[220px] bg-purple-100 flex flex-col items-center justify-center'>
+        <div className="md:w-[838px] w-[90%] flex flex-col items-center">
+          <h1 className='w-[90%] md:h-[auto] h-[80px]  md:text-5xl text-[28px] font-bold leading-8 md:leading-10 tracking-wide text-center text-gray-800'>What our customers have to say about us</h1>
+          <p className='md:w-[700px] w-[90%] md:mt-4 text-center font-normal md:leading-10 text-gray-700'>Customer testimonials and reviews that validate the best quality locations providing social proof to potential clients.</p>
         </div>
-        <div className='w-1206 h-auto flex'>
-          <div className='w-[400px] h-[300px] p-[32px] bg-purple-600 ml-5'>
-            <p className='w-[362px] h-[90px] text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros </p>
-            <div className='w-[293px] h-[78px] flex mt-[45px]'>
-              <img src="images/user.png" alt="" className='w-[64px] h-[64px] border-[2px] border-white bg-white p-[10px] rounded-full mt-[10px]' />
-              <div className='w-[400px] ml-5 h-[78px] my-[12px]'>
-                <h4 className='w-[200px] h-[36px] text-2xl font-semibold leading-36 text-gray-900'>John Smith</h4>
-                <p className='text-base font-normal leading-30text-left'>Creative Director Netflix</p>
+        <div className='w-[100%] h-auto mt-[30px] md:flex items-center justify-center'>
+          <div className='md:w-[400px] w-[95%] ml-[10px] h-auto md:h-[300px] p-[32px] bg-purple-600 md:ml-5'>
+            <p className=' md:w-[362px] w-[300px] h-auto text-[12px] md:text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros </p>
+            <div className='md:w-[293px] w-[170px] h-[px] md:h-[78px] flex m-[10px] md:mt-[45px]'>
+              <img src="images/user.png" alt="" className='md:w-[64px] w-[28px] h-[28px] md:h-[64px] border-[2px] border-white bg-white md:p-[10px] rounded-full mt-[10px]' />
+              <div className='w-[400px] ml-5 md:h-[78px] md:my-[12px]'>
+                <h4 className='w-[200px] h-auto text-2xl font-semibold text-[15px] leading-36 text-gray-900'>John Smith</h4>
+                <p className='md:text-base text-[12px] font-normal leading-30text-left'>Creative Director Netflix</p>
               </div>
             </div>
           </div>
-          <div className='w-[386px] h-[400px] p-[32px] bg-purple-600 ml-5'>
-            <p className='w-[360px] h-[90px] text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-            <div className='w-[293px] h-[78px] flex mt-[45px]'>
-              <img src="images/user.png" alt="" className='w-[64px] h-[64px] border-[2px] border-white bg-white p-[10px] rounded-full mt-[10px]' />
-              <div className='w-[400px] ml-5 h-[78px] my-[12px]'>
-                <h4 className='w-[200px] h-[36px] text-2xl font-semibold leading-36 text-gray-900'>Funke Akindele</h4>
-                <p className='text-base font-normal leading-30text-left'>Prime Video</p>
+          <div className='md:w-[400px] w-[95%] ml-[10px] h-auto md:h-[300px] mt-[10px] p-[32px] bg-purple-600 md:ml-5'>
+            <p className='md:w-[362px] m-[10px] max-w-[300px] h-auto text-[12px] md:text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            <div className='md:w-[293px] w-[170px] h-[px] md:h-[78px] flex m-[10px] md:mt-[45px]'>
+              <img src="images/user.png" alt="" className='md:w-[64px] w-[28px] h-[28px] md:h-[64px] border-[2px] border-white bg-white md:p-[10px] rounded-full mt-[10px]' />
+              <div className='w-[400px] ml-5 md:h-[78px] md:my-[12px]'>
+                <h4 className='w-[200px] h-auto text-2xl font-semibold text-[15px] leading-36 text-gray-900'>Funke Akindele</h4>
+                <p className='md:text-base text-[12px] font-normal leading-30text-left'>Prime Video</p>
               </div>
             </div>
           </div>
-          <div className='w-[386px] h-[300px] p-[32px] bg-purple-600 ml-5'>
-            <p className='w-[362px] h-[90px] text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros </p>
-            <div className='w-[293px] h-[78px] flex mt-[45px]'>
-              <img src="images/user.png" alt="" className='w-[64px] h-[64px] border-[2px] border-white bg-white p-[10px] rounded-full mt-[10px]' />
-              <div className='w-[400px] ml-5 h-[78px] my-[12px]'>
-                <h4 className='w-[200px] h-[36px] text-2xl font-semibold leading-36 text-gray-900'>Natalie Adeniyi</h4>
-                <p className='text-base font-normal leading-30text-left'>Sourcing Director EbonyLifeTV</p>
+          <div className='md:w-[400px] w-[95%] ml-[10px] h-[auto] mt-[10px] md:h-[300px] p-[32px] bg-purple-600 md:ml-5'>
+            <p className='md:w-[362px] w-[300px] h-auto text-[12px] md:text-base font-normal leading-30 text-left'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros </p>
+            <div className='md:w-[293px] w-[170px] h-[px] md:h-[78px] flex m-[10px] md:mt-[45px]'>
+              <img src="images/user.png" alt="" className='md:w-[64px] w-[28px] h-[28px] md:h-[64px] border-[2px] border-white bg-white md:p-[10px] rounded-full mt-[10px]' />
+              <div className='w-[400px] ml-5 md:h-[78px] md:my-[12px]'>
+                <h4 className='w-[200px] h-auto text-2xl font-semibold text-[15px] leading-36 text-gray-900'>Natalie Adeniyi</h4>
+                <p className='md:text-base text-[12px] font-normal leading-30text-left'>Sourcing Director EbonyLifeTV</p>
               </div>
             </div>
           </div>
