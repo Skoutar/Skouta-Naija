@@ -10,6 +10,7 @@ import Comfirm from './pages/forgetpassword/Comfirm';
 import Land from './Components/Landingpage/Land';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
+import Booking from './pages/Booking';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/comfirm' element={<Comfirm/>}/>
           <Route path='/' element={<Home/>}/>
           <Route path='/Profile' element={<Profile/>}/>
+          <Route path='' element={<Booking/>}/>
         </Routes>
       </BrowserRouter>
     </div>
