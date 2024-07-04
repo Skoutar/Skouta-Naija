@@ -120,12 +120,12 @@ const Landpage = () => {
       <div className='w-full h-auto py-15 bg-white md:mt-10 mt-[80px] rounded-[8px] md:flex items-center justify-center'>
         <div className='md:w-[600px] md:h-[728px] flex flex-col items-center h-[468px] w-[90%] ml-[5%] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] md:m-[50px]'>
           <img src="images/list-space.png" alt="" className='md:w-[600px] w-[396px] h-[250px] md:h-[382px]' />
-          <p className='md:w-[560px] w-[320px] h-auto m-[20px] text-[16px] md:ml-5 text-lg font-normal text-left text-[#222222]'>Sign up and earn money when you list your space on Skouta. The most recognised brands are filming now, be a part of their production! </p>
+          <p className='md:w-[560px] w-[320px] h-auto m-[20px] text-[13px] md:ml-5 text-lg font-normal text-left text-[#222222]'>Sign up and earn money when you list your space on Skouta. The most recognised brands are filming now, be a part of their production! </p>
           <button className='md:w-[228px] w-[50%] h-[48px] md:h-[64px] md:p-[10px] p-[5px] rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 md:mt-10 transition duration-600 hover:bg-[#290064]'> <span>List Your Space</span></button>
         </div>
         <div className='md:w-[600px] md:h-[728px] flex flex-col mt-10 items-center h-[468px] w-[90%] ml-[5%] rounded-[8px] bg-white shadow-[0_2px_2px_2px_#22222214] md:m-[50px]'>
           <img src="images/list-space2.png" alt="" className='md:w-[600px] w-[396px] h-[250px] md:h-[382px]' />
-          <p className='md:w-[560px] w-[320px] h-auto mt-5 m-[20px] text-[16px] md:ml-5 text-lg font-normal text-left text-[#222222]'>We connect you with the best locations well suited to your project and your selected preference. Tell us what you’re looking for, we’re here to help!</p>
+          <p className='md:w-[560px] w-[320px] h-auto m-[20px] text-[13px] md:ml-5 text-lg font-normal text-left text-[#222222]'>We connect you with the best locations well suited to your project and your selected preference. Tell us what you’re looking for, we’re here to help!</p>
           <button className='md:w-[228px] w-[50%] h-[48px] md:h-[64px] md:p-[10px] p-[5px] rounded-lg text-[#F8F8F8] bg-[#6200EE] border border-solid ml-5 md:mt-10 transition duration-600 hover:bg-[#290064]'><span>Get Started</span></button>
         </div>
       </div>
