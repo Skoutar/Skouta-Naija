@@ -27,7 +27,7 @@ const Homenav = () => {
             <Link className="text-[#222222] hover:text-mainColor">Inbox</Link>
             <Link className="text-[#222222] hover:text-mainColor">Become a Host</Link>
           </div>
-          <div className="flex h-auto items-center">
+          <div className="flex h-auto items-center mt-[8px]">
             <Link><i className={`bi bi-globe text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-bell text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-[50px] hover:text-white cursor-pointer`}><i className="bi bi-chevron-down"></i></i></Link>
@@ -46,13 +46,13 @@ const Homenav = () => {
           <div className="md:hidden">
             <div className="flex flex-col items-center space-y-2">
               <div className="h-[44px] w-[250px] border rounded flex items-start justify-center">
-                <input type="text" placeholder="search here..." className="h-[43px] p-[5px] w-[200px]" />
+                <input type="text" placeholder="search here..." className="h-[40px] p-[5px] w-[200px]" />
                 <i className="bi bi-search w-[32px] mt-[7px] h-[28px] bg-mainColor cursor-pointer text-white text-center ml-[5px] rounded pt-[5px] "></i>
               </div>
-              <Link className="text-[#222222] hover:text-mainColor">Earn</Link>
-              <Link className="text-[#222222] hover:text-mainColor">Bookings</Link>
-              <Link className="text-[#222222] hover:text-mainColor">Inbox</Link>
-              <Link className="text-[#222222] hover:text-mainColor">Become a Host</Link>
+              <Link className="text-[#222222] hover:text-mainColor font-semibold">Earn</Link>
+              <Link className="text-[#222222] hover:text-mainColor font-semibold">Bookings</Link>
+              <Link className="text-[#222222] hover:text-mainColor font-semibold">Inbox</Link>
+              <Link className="text-[#222222] hover:text-mainColor font-semibold">Become a Host</Link>
             </div>
           </div>
         )}
