@@ -84,9 +84,9 @@ const Profile = () => {
                             className="mt-2 w-full h-[165px] border rounded-[10px] p-2"
                         ></textarea>
                     </div>
-                    <div className="flex items-center justify-center mt-10">
-                        <button className="w-[228px] h-[64px] px-2 py-5 rounded-lg text-white bg-[#6200EE] border border-solid transition duration-600 hover:bg-[#290064]">
-                            <span>Get Started</span>
+                    <div className="flex items-center justify-center mt-2">
+                        <button className="w-[228px] h-[64px] rounded-lg text-white bg-[#6200EE] border border-solid transition duration-600 hover:bg-[#290064]">
+                            Get Started
                         </button>
                     </div>
                 </div>

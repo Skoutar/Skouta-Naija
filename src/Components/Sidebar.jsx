@@ -9,7 +9,7 @@ const Sidebar = () => {
         setActiveLink(linkName);
     };
     return (
-        <div className="w-[241px] hidden h-[1260px] border sm:flex flex-col items-center bg-[#F8F8F8]">
+        <div className="w-[241px] hidden h-auto pb-[200px] border sm:flex flex-col items-center bg-[#F8F8F8]">
             <div className="mt-[40px] flex flex-col items-center">
                 <img src="images/profile.png" alt="" />
                 <p className="text-[18px] mt-[10px] text-center font-[500]">Hilary Stone</p>
@@ -24,6 +24,7 @@ const Sidebar = () => {
                     <p className="ml-[15px]">Profile</p>
                 </Link>
                 <Link
+                    to='/Security'
                     className={`flex mt-[30px] items-center ${activeLink === 'login' ? 'text-mainColor' : ''}`}
                     onClick={() => handleLinkClick('login')}
                 >
@@ -31,6 +32,7 @@ const Sidebar = () => {
                     <p className="ml-[15px]">Login & Security</p>
                 </Link>
                 <Link
+                    to='/Payment'
                     className={`flex mt-[30px] items-center ${activeLink === 'payments' ? 'text-mainColor' : ''}`}
                     onClick={() => handleLinkClick('payments')}
                 >
@@ -38,6 +40,7 @@ const Sidebar = () => {
                     <p className="ml-[15px]">Payments</p>
                 </Link>
                 <Link
+                    to='/Notification'
                     className={`flex mt-[30px] items-center ${activeLink === 'notifications' ? 'text-mainColor' : ''}`}
                     onClick={() => handleLinkClick('notifications')}
                 >

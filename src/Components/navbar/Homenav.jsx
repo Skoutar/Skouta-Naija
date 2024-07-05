@@ -30,7 +30,7 @@ const Homenav = () => {
           <div className="flex h-auto items-center mt-[8px]">
             <Link><i className={`bi bi-globe text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-bell text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
-            <Link><i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-[50px] hover:text-white cursor-pointer`}><i className="bi bi-chevron-down"></i></i></Link>
+            <Link to='/Profile'><i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-[50px] hover:text-white cursor-pointer`}>< i className="bi bi-chevron-down"></i></i></Link>
             <div className="md:hidden ml-6 mt-[5px]">
               {/* Mobile Menu */}
               <button onClick={() => setIsOpen(!isOpen)} className="text-gray-600 focus:outline-none">

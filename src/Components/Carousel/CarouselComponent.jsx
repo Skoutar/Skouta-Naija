@@ -7,8 +7,8 @@ const CarouselComponent = () => {
   const sections = [
     { title: 'Creative Space', images: ['images/carousel2.png', 'images/carousel3.png', 'images/carousel1.png'] },
     { title: 'Photoshoot', images: ['images/carousel2.png', 'images/carousel2.png', 'images/carousel2.png'] },
-    { title: 'House', images: ['images/carousel2.png', 'images/carousel2.png', 'images/carousel3.png']},
-    { title: 'Beach', images: ['images/carousel3.png', 'images/carousel2.png', 'images/carousel3.png']},
+    { title: 'House', images: ['images/carousel2.png', 'images/carousel2.png', 'images/carousel3.png'] },
+    { title: 'Beach', images: ['images/carousel3.png', 'images/carousel2.png', 'images/carousel3.png'] },
     { title: 'Studio', images: ['images/carousel1.png', 'images/carousel3.png', 'images/carousel1.png'] },
     { title: 'Expanse of Land', images: ['images/carousel1.png', 'images/carousel2.png', 'images/carousel1.png'] }
   ];
@@ -21,7 +21,7 @@ const CarouselComponent = () => {
 
   return (
     <div className="carousel-container">
-        <h1>Find the Space That Tells The Story</h1>
+      <h1>Find the Space That Tells The Story</h1>
       <div className="section-navigation">
         {sections.map((section, index) => (
           <div
@@ -39,7 +39,7 @@ const CarouselComponent = () => {
         showThumbs={false}
         infiniteLoop={true}
         centerMode={true}
-        centerSlidePercentage={33.33}
+        centerSlidePercentage={100 / sections[activeSection].images.length}
       >
         {sections[activeSection].images.map((image, idx) => (
           <div key={idx} className="carousel-image">
@@ -47,7 +47,6 @@ const CarouselComponent = () => {
           </div>
         ))}
       </Carousel>
-      {/* Browse all spaces button */}
       <div className="browse-button-container">
         <button className="browse-button">Browse all spaces</button>
       </div>

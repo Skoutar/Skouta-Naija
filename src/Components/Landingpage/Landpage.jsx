@@ -134,16 +134,16 @@ const Landpage = () => {
         <div className='w-[90%] h-[80%] md:mt-10 sm:mt-16 flex items-center justify-around'>
           <img src="images/Green.png" className='md:h-[200px] md:w-[200px] w-[48px] h-[48px] ' alt="" />
           <div className='pl-[8px] md:ml-[80px] '>
-            <h1 className='text-4xl sm:text-5xl md:text-6xl text-[28px] font-bold leading-tight text-gray-900'>We have you covered </h1>
-            <p className='md:w-[800px] w-[314px] md:mt-4 h-84 text-lg font-normal leading-7 text-gray-700'>Select from our protection packages with damage protection, liability insurance, and even cancellation protection.</p>
+            <h1 className='text-4xl sm:text-5xl md:text-6xl text-[20px] font-bold leading-tight text-gray-900'>We have you covered </h1>
+            <p className='md:w-[800px] w-[314px] md:mt-4 h-84 text-[13px] leading-5 md:text-lg font-normal md:leading-7 text-gray-700'>Select from our protection packages with damage protection, liability insurance, and even cancellation protection.</p>
           </div>
         </div>
       </div>
       {/* costumer reviws */}
-      <div className='w-full md:h-[892px] h-[836px] md:mt-[180px] mt-[220px] bg-purple-100 flex flex-col items-center justify-center'>
+      <div className='w-full md:h-[892px] h-[836px] md:mt-[180px] mt-[120px] bg-purple-100 flex flex-col items-center justify-center'>
         <div className="md:w-[838px] w-[90%] flex flex-col items-center">
-          <h1 className='w-[90%] md:h-[auto] h-[80px]  md:text-5xl text-[28px] font-bold leading-8 md:leading-10 tracking-wide text-center text-gray-800'>What our customers have to say about us</h1>
-          <p className='md:w-[700px] w-[90%] md:mt-4 text-center font-normal md:leading-10 text-gray-700'>Customer testimonials and reviews that validate the best quality locations providing social proof to potential clients.</p>
+          <h1 className='w-[90%] md:h-[auto] h-auto  md:text-5xl text-[25px] font-bold leading-6 md:leading-10 tracking-wide text-center text-gray-800'>What our customers have to say about us</h1>
+          <p className='md:w-[700px] w-[90%] md:mt-4 mt-3 text-[13px] text-center font-normal md:leading-10 text-gray-700'>Customer testimonials and reviews that validate the best quality locations providing social proof to potential clients.</p>
         </div>
         <div className='w-[100%] h-auto mt-[30px] md:flex items-center justify-center'>
           <div className='md:w-[400px] w-[95%] ml-[10px] h-auto md:h-[300px] p-[32px] bg-purple-600 md:ml-5'>

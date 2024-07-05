@@ -1,6 +1,5 @@
 .footer-container {
     width: 100%;
-    bottom: 0;
     height: auto;
     background-color: #290064;
     display: flex;
@@ -17,11 +16,12 @@
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Enable flex-wrap */
 }
 
 .footer-text {
-    width: 150px;
+    flex: 1 1 150px; /* Flex properties to allow wrapping */
+    margin: 10px; /* Margin to add spacing */
 }
 
 .footer-text h4 {
@@ -41,7 +41,8 @@
     color: #fff;
     margin-bottom: 20px; /* Added margin-bottom for spacing */
 }
-.foot{
+
+.foot {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -59,26 +60,72 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
-.foot-footer p{
-    width: 600px;
-height: 36px;
-font-size: 16px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: -0.01em;
-text-align: left;
-color: white;
-margin-right: 100px; /* Added margin-right for spacing */
 
+.foot-footer p {
+    flex: 1 1 600px; /* Flex properties to allow wrapping */
+    height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: white;
+    margin: 10px; /* Margin to add spacing */
 }
 
 .social-icons {
     display: flex;
+    margin: 10px; /* Margin to add spacing */
 }
 
 .footer-icons {
     width: 32px;
     height: 32px;
     margin-left: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+    .footer-container{
+        margin-top: 100px;
+    }
+    .footer-sec {
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-text h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .foot-footer {
+        width: 90%;
+    }
+
+    .foot-footer p {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer-sec {
+        width: 80%;
+    }
+
+    .foot-footer {
+        width: 80%;
+    }
 }

@@ -10,7 +10,10 @@ import Comfirm from './pages/forgetpassword/Comfirm';
 import Land from './Components/Landingpage/Land';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Booking from './pages/Booking';
+import Security from './pages/Security';
+import Payment from './pages/Payment';
+import Addpayment from './pages/Addpayment';
+import Notification from './pages/Notification';
 
 const App = () => {
   return (
@@ -26,7 +29,11 @@ const App = () => {
           <Route path='/comfirm' element={<Comfirm/>}/>
           <Route path='/' element={<Home/>}/>
           <Route path='/Profile' element={<Profile/>}/>
-          <Route path='' element={<Booking/>}/>
+          <Route path='/Security' element={<Security/>}/>
+          <Route path='/Payment' element={<Payment/>}/>
+          <Route path='/Add-Payment' element={<Addpayment/>}/>
+          <Route path='/Notification' element={<Notification/>}/>
+
         </Routes>
       </BrowserRouter>
     </div>
