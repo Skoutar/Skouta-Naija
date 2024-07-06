@@ -65,9 +65,9 @@ const Landpage = () => {
           <h1 className='text-[28px] sm:text-[60px] font-bold leading-6 text-gray-900'>Created With Skoutar</h1>
           <p className='text-[18px] mt-[10px] sm:text-base font-normal leading-6 text-gray-600 mx-auto sm:mt-10'>Better Locations, Endless Possibilities</p>
         </div>
-        <div className='flex items-center ml-[10px] w-full sm:mt-[80px]'>
+        <div className='flex items-center justify-center ml-[10px] w-full sm:mt-[80px]'>
           <div className='flex flex-col items-center justify-center'>
-            <div className='max-w-2xl mx-auto mt-10 text-left'>
+            <div className='max-w-2xl mx-auto mt-5 text-left'>
               <h4 className='text-[20px] w-[170px] sm:w-auto sm:text-2xl font-bold leading-6 text-gray-900 transition-colors duration-300 hover:text-indigo-600 cursor-pointer'>Discover Amazing Film Locations</h4>
               <p className='text-[16px] sm:text-base leading-normal text-gray-700 mt-5 w-[170px] sm:w-[586px]'>Our advanced search filters allow you to find the perfect film location for your next project. Explore verified locations with ease and read user reviews to make informed decisions.</p>
             </div>
