@@ -3,6 +3,7 @@ import Footer from "../Components/Footer/Footer"
 import Sidebar from "../Components/Sidebar"
 import Homenav from "../Components/navbar/Homenav"
 
+
 const Payment = () => {
     return (
         <>
@@ -16,8 +17,7 @@ const Payment = () => {
                     <p className=" mt-3 text-[16px] text-[#6B6B6B]">Manage your payment methods here</p>
                     <Link className="" to='/Add-Payment'>
                         <button className="w-[228px] mt-8 h-[64px] rounded-lg text-white bg-[#6200EE] border border-solid transition duration-600 hover:bg-[#290064]">
-                            Get Started
-                        </button>
+                        Add payment method                        </button>
                     </Link>
                     <h2 className="w-full md:w-[400px] mt-8 h-[42px] text-[28px] text-[#222222] font-medium">
                     Coupons                    

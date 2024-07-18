@@ -27,8 +27,7 @@ const Security = () => {
                     </div>
                     <div className="flex items-center justify-center mt-10">
                         <button className="w-[228px] h-[64px] rounded-lg text-white bg-[#6200EE] border border-solid transition duration-600 hover:bg-[#290064]">
-                            Get Started
-                        </button>
+                        Change password                        </button>
                     </div>
                     <h2 className="w-full md:w-[400px] mt-[50px] h-[42px] text-[28px] text-[#222222] font-medium">
                     Linked Accounts                    
