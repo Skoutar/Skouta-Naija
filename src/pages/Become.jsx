@@ -17,7 +17,7 @@ const Become = () => {
           <img className="w-[700px] shadow-[#0000004D] rounded h-[700px]" src="images/Becomb.png" alt="" />
         </div>
         {/* decide */}
-        <div className="bg-[#F8F8F8] flex flex-col justify-center  w-full px-[5%] mt-[100px]">
+        <div className="bg-[#F8F8F8] flex flex-col justify-center pb-[50px] w-full px-[5%] mt-[100px]">
           <div className="flex flex-col items-center justify-center mt-5">
             <h3 className="w-[700px] h-auto text-[48px] text-center text-[#222222] font-[700]">Decide on how you share</h3>
             <p className="w-[740px] mt-4 text-[18px] text-center font-[400] font-500 text-[#6B6B6B]">You love your space, so you control how you share it. Get movie production booking all day long – whatever works best for you</p>
@@ -38,8 +38,73 @@ const Become = () => {
               <p></p>
             </div>
           </div>
+        </div>
+        {/* why host on skoutar */}
+        <div className="flex flex-col items-center justify-center mt-[100px] px-[5%]">
+        <h3 className="w-[700px] h-auto text-[48px] text-center text-[#222222] font-[700]">Why host on Skoutar</h3>
+        <div className="flex items-center justify-items-center">
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/house.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">Complete Autonomy</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">On skoutar, you have complete control over your property search and listing process. Our platform empowers you to make informed decisions without any intermediary interference.</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="images/house.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] mt-4 text-center">Fully Insured</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">Skoutar collects mandatory security deposits for any minor damages. Your home is also covered by the production’s insurance policy.</p>
+          </div>
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/camera.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">Production Sizes</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">Skoutar specialises in any kind of movie productions (commercials, music videos, and branded content). You are able to set the number of guests expected in a crew at your location.</p>
+          </div>
+        </div>
 
         </div>
+        {/* type of production */}
+        <div className="flex flex-col items-center justify-center mt-[100px] px-[5%]">
+        <h3 className="w-[1000px] h-auto text-[48px] text-center text-[#222222] font-[700]">What types of production can I host?</h3>
+        <div className="flex items-center h-[258px] mt-[20px]">
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/speed.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">Photoshoot</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">Photoshoots are short, simple and low impact. They typically last a few hours and include a cast and crew of less than 15 people.</p>
+          </div>
+          <div className="flex flex-col items-center mt-[30px]">
+            <img src="images/Vector.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] mt-4 text-center">TV Shows</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">TV shows shoots come in all shapes and sizes. On average, they last about a day and require a crew of 15-30 people.</p>
+          </div>
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/camera.png" className="w-[64px] h-[64px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">Movie Production</p>
+            <p className="w-[410px] text-center text-[18px] font-[400] mt-4 font-500 text-[#6B6B6B]">Big budget productions shoot over multiple days and require larger crews. They also pay the best and give you the best chance to spot an A-lister.</p>
+          </div>
+        </div>
+
+        </div>
+        {/* How hosting works */}
+        <div className="flex flex-col items-center justify-center mt-[100px] px-[5%]">
+        <h3 className="w-[1000px] h-auto text-[48px] text-center text-[#222222] font-[700]">How hosting works</h3>
+        <div className="flex items-center h-[258px] mt-[50px]">
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/space1.png" className="w-[80px] h-[80px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">List your space for free</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">If you own a property, you can host it on Skoutar. Simply create a new listing, add some basic info like price, photos and details, and then click ‘Publish’. Then your listing is ready to be seen by millions of people searching for space.</p>
+          </div>
+          <div className="flex flex-col items-center mt-[60px]">
+            <img src="images/space2.png" className="w-[80px] h-[80px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] mt-4 text-center">Welcome guests to your space</p>
+            <p className="w-[410px] text-center mt-4 text-[18px] font-[400] font-500 text-[#6B6B6B]">Skoutar collects payment from production teams before the shoot date. To protect your space we collect a security deposit to cover any minor damages. Skoutar holds these funds in escrow until the end of the shoot. Your payout is directly deposited after each booking, minus our service fee.</p>
+          </div>
+          <div className="flex flex-col items-center mt-[50px]">
+            <img src="images/space3.png" className="w-[80px] h-[80px]" alt="" />
+            <p className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">Get paid every time</p>
+            <p className="w-[410px] text-center text-[18px] font-[400] mt-4 font-500 text-[#6B6B6B]">Skoutar collects payment from production teams before the shoot date. To protect your space we collect a security deposit to cover any minor damages. Skoutar holds these funds in escrow until the end of the shoot. Your payout is directly deposited after each booking, minus our service fee.</p>
+          </div>
+        </div>
+        </div>
+        {/*  */}
       </div>
     </div>
   )
