@@ -1,7 +1,13 @@
+import { useState } from 'react';
 import CarouselComponent from '../Carousel/CarouselComponent'
 import Marquee from 'react-fast-marquee'
 
 const Landpage = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setOpen(!open);
+  };
   return (
     <div className="landing-page w-full">
       {/* Discover section */}
@@ -187,45 +193,56 @@ const Landpage = () => {
         {/* Question */}
         <div className='w-full h-[1044px] mt-[180px] bg-[#F8F8F8] flex flex-col items-center'>
           <div className='w-[838px] h-[262px] mt-[64px]'>
+            <div>
+            </div>
             <h1 className='w-[838px] h-[192px] text-[60px] font-bold leading-[90px] tracking-[0.02em] text-center'>Frequently Asked Questions (FAQs)</h1>
             <p className='w-full h-[42px] text-[25px] font-normal leading-[42px] text-center text-[#4E4E4E] mt-[10px]'>Any questions? We got you.</p>
           </div>
-          <div className='w-4/5 flex items-center justify-center'>
-            <div className=''>
-              <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
-                <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
-                  How do i list my space on Skouta?
-                </option>
-                {/* <option value="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
-              </select>
-              <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
-                <option value="" className='w-[40px] h-[72px] mt-[78px] text-[20px] font-normal leading-[36px] text-left'>How do i list my space on Skouta?</option>
-                {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
-              </select>
-              <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
-                <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
-                  How do i list my space on Skouta?
-                </option>
-                {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
-              </select>
-              <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
-                <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
-                  How do i list my space on Skouta?
-                </option>
-                {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
-              </select>
-              <select name="" id="" className='w-[813px] h-[90px] mt-[15px] left-[80px] p-[24px_46px_24px_32px] bg-white'>
-                <option value="" className='w-[448px] h-[42px] top-[24px] left-[32px] text-[28px] font-medium leading-[42px] text-left text-[#1F1F1F]'>
-                  How do i list my space on Skouta?
-                </option>
-                {/* <option value="" className='question-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros, consectetur adipiscing elit. Suspendisse</option> */}
-              </select>
-            </div>
-            <div className='w-[1000px] h-[500px] top-[386px] left-[949px] bg-white p-[21px] flex flex-col items-center justify-around'>
+          <div className='w-4/5 flex items-center justify-between'>
+          <div className='flex flex-col items-center justify-around'>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          </div>
+
+            <div className='w-[400px] h-[500px] top-[386px] left-[949px] bg-white p-[21px] flex flex-col items-center'>
               <img src="images/message.png" alt="" className='w-[100px] h-[100px]' />
-              <h4 className='w-[350px] text-[28px] font-bold leading-[px] text-center'>Do you have more questions?</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in </p>
-              <button className='w-[228px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Shoot a direct mail</button>
+              <h4 className='w-[350px] text-[28px] font-bold leading-[px] text-center mt-[40px]'>Do you have more questions?</h4>
+              <p className='w-[351px] mt-[40px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in </p>
+              <button className='w-[228px] mt-[40px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Shoot a direct mail</button>
             </div>
           </div>
         </div>

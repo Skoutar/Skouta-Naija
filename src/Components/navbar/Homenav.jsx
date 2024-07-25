@@ -33,17 +33,17 @@ const Homenav = () => {
           </div>
 
           {/* Menu Items */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center gap-[20px] space-x-4">
             <Link className="text-[#222222] hover:text-mainColor">Earn</Link>
             <Link className="text-[#222222] hover:text-mainColor">Bookings</Link>
             <Link className="text-[#222222] hover:text-mainColor">Inbox</Link>
-            <Link className="text-[#222222] hover:text-mainColor">Become a Host</Link>
+            <Link to="/Become" className="text-[#222222] hover:text-mainColor">Become a Host</Link>
           </div>
           <div className="flex h-auto items-center mt-[8px]">
             <Link><i className={`bi bi-globe text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <Link><i className={`bi bi-bell text-[15px] md:text-[20px] mr-[1px] h-[30px] p-[10px] w-[25px] cursor-pointer `}></i></Link>
             <button onClick={handlePersonClick}>
-              <i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-[50px] hover:text-white cursor-pointer`}>
+              <i className={`bi bi-person text-[15px] md:text-[20px] mr-[1px] p-[10px] hover:bg-mainColor hover:rounded-full hover:text-white cursor-pointer`}>
                 <i className="bi bi-chevron-down"></i>
               </i>
             </button>
