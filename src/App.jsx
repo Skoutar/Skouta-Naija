@@ -1,3 +1,4 @@
+import 'leaflet/dist/leaflet.css';
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/forgetpassword/Login';
@@ -15,6 +16,7 @@ import Payment from './pages/Payment';
 import Addpayment from './pages/Addpayment';
 import Notification from './pages/Notification';
 import Become from './pages/Become';
+import Space from './pages/Space';
 
 const App = () => {
   return (
@@ -28,14 +30,15 @@ const App = () => {
           <Route path='/checkemail' element={<Checkemail/>}/>
           <Route path='/reset' element={<Reset/>}/>
           <Route path='/comfirm' element={<Comfirm/>}/>
-          <Route path='/Home' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/Profile' element={<Profile/>}/>
           <Route path='/Security' element={<Security/>}/>
           <Route path='/Payment' element={<Payment/>}/>
           <Route path='/Add-Payment' element={<Addpayment/>}/>
           <Route path='/Notification' element={<Notification/>}/>
-          <Route path='/' element={<Land/>}/>
+          <Route path='/Land' element={<Land/>}/>
           <Route path='/Become' element={<Become/>} />
+          <Route path='/space' element={<Space/>} />
 
         </Routes>
       </BrowserRouter>

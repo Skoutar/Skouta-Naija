@@ -1,6 +1,15 @@
+import { useState } from "react";
 import Homenav from "../Components/navbar/Homenav"
+import Footer from "../Components/Footer/Footer"
+import { Link } from "react-router-dom";
+
 
 const Become = () => {
+  const [open, setOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setOpen(!open);
+  };
   return (
     <div>
       <Homenav />
@@ -12,7 +21,7 @@ const Become = () => {
               Join thousands of others on Skoutar renting their space for movie productions, photoshoot, and many others</p>
             <h3 className="w-[433px] font-[500] text-[25px] text-[#1F1F1F] text-center mt-4">What type of space do you have?</h3>
             <input className="w-[519px] h-[64px] border rounded px-3 mt-3" type="text" placeholder="Apartment, Photo Studio, Gallery Event space" />
-            <button className="border w-[200px] mt-5 bg-[#6200EE] rounded text-[#ffff] h-[50px]">Get Started</button>
+           <Link to="/space"><button className="border w-[200px] mt-5 bg-[#6200EE] rounded text-[#ffff] h-[50px]">Get Started</button></Link>
           </div>
           <img className="w-[700px] shadow-[#0000004D] rounded h-[700px]" src="images/Becomb.png" alt="" />
         </div>
@@ -104,8 +113,90 @@ const Become = () => {
           </div>
         </div>
         </div>
-        {/*  */}
+        {/*  All property*/}
+        <div className="mt-[200px] px-[3%] flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-5">
+            <h3 className="w-[900px] h-auto text-[48px] text-center text-[#222222] font-[700]">All property belongs on Skoutar</h3>
+            <p className="w-[600px] mt-4 text-[18px] text-center font-[400] font-500 text-[#6B6B6B]">Spaces of all shapes, styles, and sizes do well on Skoutar – from empty storefronts to industrial lofts. After all, it’s the diversity of options that makes Skoutar special.</p>
+        </div>
+        <div>
+          <div className="flex flex-wrap justify-around mt-[50px]">
+            <img src="images/property.png" alt="" />
+            <img src="images/property1.png" alt="" />
+            <img src="images/property2.png" alt="" />
+            <img src="images/property3.png" alt="" />
+            <img src="images/property4.png" className="mt-3" alt="" />
+            <img src="images/property5.png" className="mt-3" alt="" />
+            <img src="images/property6.png" className="mt-3" alt="" />
+            <img src="images/property7.png" className="mt-3" alt="" />
+          </div>
+        </div>
+        </div>
+        {/* question */}
+        <div className='w-full h-[900px] mt-[100px] bg-[#F8F8F8] flex flex-col items-center'>
+          <div className='w-[838px] h-[262px] mt-[64px]'>
+            <div>
+            </div>
+            <h1 className='w-[838px] h-[192px] text-[60px] font-bold leading-[90px] tracking-[0.02em] text-center'>Frequently Asked Questions (FAQs)</h1>
+            <p className='w-full h-[42px] text-[25px] font-normal leading-[42px] text-center text-[#4E4E4E] mt-[10px]'>Any questions? We got you.</p>
+          </div>
+          <div className='w-4/5 flex items-center justify-between'>
+          <div className='flex flex-col items-center justify-around'>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          <div className="cursor-pointer w-[600px] bg-white p-4 my-2 shadow-md rounded-md">
+            <p className="text-lg font-medium text-[#1F1F1F]">How do I list my space on Skouta?<i onClick={toggleDropdown} className="bi bi-chevron-down ml-[200px]"></i>
+            </p>
+            {open && (
+              <div className="mt-2 text-sm w-[600px] text-[#1F1F1F]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis quam quisquam mollitia iusto fuga! Excepturi quidem dicta vero doloremque!
+              </div>
+            )}
+          </div>
+          </div>
+
+            <div className='w-[400px] h-[500px] top-[386px] left-[949px] bg-white p-[21px] flex flex-col items-center'>
+              <img src="images/message.png" alt="" className='w-[100px] h-[100px]' />
+              <h4 className='w-[350px] text-[28px] font-bold leading-[px] text-center mt-[40px]'>Do you have more questions?</h4>
+              <p className='w-[351px] mt-[40px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in </p>
+              <button className='w-[228px] mt-[40px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Shoot a direct mail</button>
+            </div>
+          </div>
+        </div>
+        {/* Ready to start */}
+        <div className=" flex flex-col mt-[50px] mb-[100px] items-center justify-center">
+        <h1 className='w-[838px] text-[60px] font-bold leading-[90px] tracking-[0.02em] text-center'>Ready to get started?</h1>
+        <button className='w-[228px] mt-[40px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>List your space</button>
+
+        </div>
       </div>
+      <Footer/>
+
     </div>
   )
 }

@@ -91,14 +91,13 @@ const Landpage = () => {
 
       </div>
       {/* How skoutar works */}
-      <div className="w-full bg-white flex flex-col items-center justify-center">
+      <div className="w-full bg-white flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl font-bold leading-48 text-center text-[#0E0E0E]">How Skouta Works</h1>
         <p className="w-90% md:w-[870px] h-[160px] text-sm md:text-base font-normal leading-30 text-center">
           We love production and are committed to simplifying it, starting with film locations. Skouta’s marketplace connects thousands of producers and agencies with spaces to create commercials, films, and branded content throughout Nigeria.
         </p>
-        <div className="relative w-full p-10 flex items-center justify-around">
-          <div className="top-[81px] md:right-[500px] w-[60%] sm:w-[672px] md:w-[594px] bg-gray-100 rounded-lg shadow-[0px 2px 2px rgba(34,34,34,0.14)] -translate-y-20">
-            <div className=" absolute top-[81px] md:right-[500px] w-[60%] sm:w-[672px] md:w-[594px] bg-gray-100 rounded-lg shadow-[0px 2px 2px rgba(34,34,34,0.14)] -translate-y-20">
+        <div className="relative flex items-center justify-between ml-[20%]">
+            <div className="absolute mt-[100px] top-[50px] md:right-[500px] w-[60%] sm:w-[672px] md:w-[594px] bg-gray-100 rounded-lg shadow-[0px 2px 2px rgba(34,34,34,0.14)] -translate-y-20">
               <div className="static w-[594px] p-[10px] md:mt-[70px] flex">
                 <img src="images/howicon1.png" alt="" className="w-7 h-7 md:w-[64px] md:h-[64px] text-[#6B6B6B] mt-[50px]" />
                 <div className="ml-[20px] w-[490px] h-[174px]">
@@ -122,9 +121,8 @@ const Landpage = () => {
                   <p className="text-sm leading-30 mt-[5px]">Real-time availability for booking. Emergencies happen. Book locations and anything you need for any event or production with ease.</p>
                 </div>
               </div>
-            </div>
-            <img src="images/how (2).png" alt="" className="rlative w-[60%] sm:w-[845px] h-[944px] rounded-[8px]" />
           </div>
+          <img src="images/how (2).png" alt="" className="rlative w-[60%] sm:w-[845px] h-[944px] rounded-[8px]" />
         </div>
       </div>
 
@@ -247,21 +245,19 @@ const Landpage = () => {
           </div>
         </div>
         {/* Stay Update */}
-        <div className='bg-white w-full h-[500px] flex items-center justify-center'>
-          <div className='flex items-center'>
-            <div className='updated-A w-[586px] h-auto mr-[40px]'>
-              <h4 className='w-[586px] text-[40px] font-bold leading-[60px] text-left'>Stay Updated with Skouta’s Newsletter</h4>
-              <p className='w-[586px] text-[20px] font-normal leading-[36px] text-left'>Find Your Perfect Film Location. Discover unique and stunning film locations for your next project</p>
+        <div className='bg-white w-full xl:h-[500px] p-[3%] justify-center xl:flex xl:items-center xl:justify-center '>
+            <div className='updated-A xl:w-[586px] h-auto xl:mr-[40px]'>
+              <h4 className='xl:w-[586px] w-[400px] text-[16px] xl:text-[40px] font-bold leading-5 xl:leading-[60px] text-left'>Stay Updated with Skouta’s Newsletter</h4>
+              <p className='xl:w-[586px] w-[360px] xl:mt-[0] mt-3 text-[#4E4E4E] text-[14px] xl:text-[20px] font-normal leading-6 xl:leading-[36px] text-left'>Find Your Perfect Film Location. Discover unique and stunning film locations for your next project</p>
             </div>
-            <div className='w-[639px] ml-[40px]'>
-              <p className='w-[628px] text-[20px] font-normal leading-[36px] text-left'>Subscribe to our newsletter for the latest updates, special offers, and to join us on our journey.</p>
-              <div className='form-input w-[639px] h-[64px] relative mt-[20px] rounded-[8px]'>
-                <input type="text" placeholder='Your Email Address' className='w-[411px] h-auto p-[22px_256px_18px_16px] rounded-[8px] bg-[#E2E2E2]' />
-                <button className='w-[228px] h-auto p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Subcribe</button>
-                <p className='w-[628px] text-[20px] font-normal leading-[36px] text-left mt-[10px]'>By subscribing, you agree to our Terms and Conditions.</p>
+            <div className='w-[639px] xl:ml-[40px]'>
+              <p className='xl:w-[586px] w-[340px] xl:mt-[0] mt-3 text-[14px] xl:text-[20px] xl:font-normal leading-6 xl:leading-[36px] text-left'>Subscribe to our newsletter for the latest updates, special offers, and to join us on our journey.</p>
+              <div className='form-input w-[388px] xl:w-[639px] h-[64px] relative mt-[20px] rounded-[8px]'>
+                <input type="text" placeholder='Your Email Address' className='w-[310px] xl:w-[411px] h-[48px] xl:h-auto p-[22px_256px_18px_16px] rounded-[8px] bg-[#E2E2E2]' />
+                <button className='xl:w-[228px] xl:mt-[00] mt-[20px] p-3 h-auto xl:p-[20px_8px] gap-[8px] rounded-[8px] bg-[#6200EE] text-white'>Subcribe</button>
+                <p className='xl:w-[586px] w-[340px] xl:mt-[0] mt-3 text-[14px] xl:text-[20px] xl:font-normal leading-6 xl:leading-[36px] text-left'>By subscribing, you agree to our Terms and Conditions.</p>
               </div>
             </div>
-          </div>
         </div>
       </div>
       )  
